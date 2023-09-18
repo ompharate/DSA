@@ -1,3 +1,4 @@
+// # Arrays in STL
 #include<iostream>
 #include<array>
 using namespace std;
@@ -16,7 +17,7 @@ int main() {
     //     cout<<arr[i];
     // }
 
-    // cout<<arr.at(1);    
+    // cout<<arr.at(1);    o(1)
     // cout<<arr.at(3);    
 
     cout<<arr.empty(); // 0
