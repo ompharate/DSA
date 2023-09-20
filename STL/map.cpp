@@ -8,16 +8,14 @@ int main() {
     //  auto sort
     // Key Must Be unique
 
-    map<int,string> m;
+    map<int,int> m;
     
-    m[1] = "om";
-    m[2] = "pharate";
-    m[3] = "i2it";
+    m[1] = 10;
+    m[2] = 20;
+    m[3] = 30;
 
-
-    m.insert({5,"karan"});
-    m.erase(1);
-
+    m[3]++;
+ 
     for(auto i: m){
         cout<<i.second;
     }
