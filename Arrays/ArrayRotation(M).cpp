@@ -22,7 +22,6 @@ void rotateArrayTwo(int n, char d, int r, vector < int > & num) {
 
     }
 
- 
 
    num=ans;
 
